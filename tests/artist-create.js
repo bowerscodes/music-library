@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 const request = require('supertest');
-const { getDb } = require('../src/services/db');
+const getDb = require('../src/services/db');
 const app = require('../src/app');
 
 
